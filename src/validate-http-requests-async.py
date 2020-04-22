@@ -47,7 +47,7 @@ async def parse(url: str, session: ClientSession, **kwargs) -> set:
     except Exception as e:
         logger.error("Non-aiohttp exception occured:  %s", (e))
         return found
-
+    return found.update(response)
 
 async def url_status_validate(file: IO, url: str, session) -> None:
 
