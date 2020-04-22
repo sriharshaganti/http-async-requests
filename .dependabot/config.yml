@@ -1,0 +1,8 @@
+update_configs:
+- directory: /
+  package_manager: python
+  update_schedule: daily
+- directory: /packages/
+  package_manager: python
+  update_schedule: daily
+version: 1

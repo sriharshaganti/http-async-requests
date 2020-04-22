@@ -1,0 +1,17 @@
+aioboto3==7.0.0
+aiobotocore==0.12.0
+aiodns==2.0.0
+aiofiles==0.4.0
+aiohttp==3.6.2
+aioitertools==0.5.1
+async-timeout==3.0.1
+asyncio==3.4.3
+boto3==1.12.3
+botocore==1.15.15
+cchardet==2.1.5
+chardet==3.0.4
+docutils==0.15.2
+s3transfer==0.3.3
+urllib3==1.25.7
+mysqlclient==1.4.2.post1
+PyMySQL==0.9.3
